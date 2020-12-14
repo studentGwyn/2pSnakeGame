@@ -102,9 +102,9 @@ function handleGameOver(data) {
   gameActive = false;
 
   if (data.winner === playerNumber) {
-    alert('You Win!Chuurr');
+    alert('Y O U   W I N !');
   } else {
-    alert('You Lose mf');
+    alert('Y O U   L O S E ! B O G O ');
   }
 }
 
