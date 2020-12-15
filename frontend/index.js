@@ -1,6 +1,6 @@
 const BG_COLOUR = '#231f20';
-const SNAKE_COLOUR = '#4eb9dc';
-const FOOD_COLOUR = '#fff200';
+const SNAKE_COLOUR = '#c3141c';
+const FOOD_COLOUR = '#044483';
 
 const socket = io('https://sleepy-island-33889.herokuapp.com/');
 
@@ -69,7 +69,7 @@ function paintGame(state) {
   ctx.fillRect(food.x * size, food.y * size, size, size);
 
   paintPlayer(state.players[0], size, SNAKE_COLOUR);
-  paintPlayer(state.players[1], size, '#ae52d6');
+  paintPlayer(state.players[1], size, '#abc4da');
 }
 
 function paintPlayer(playerState, size, colour) {
@@ -104,7 +104,7 @@ function handleGameOver(data) {
   if (data.winner === playerNumber) {
     alert('Y O U   W I N !');
   } else {
-    alert('Y O U   L O S E ! B O G O ');
+    alert('Y O U   L O S E !');
   }
 }
 
