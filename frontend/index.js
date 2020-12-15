@@ -70,6 +70,7 @@ function paintGame(state) {
 
   paintPlayer(state.players[0], size, SNAKE_COLOUR);
   paintPlayer(state.players[1], size, '#abc4da');
+  paintPlayer(state.players[2], size, '#ffffff');
 }
 
 function paintPlayer(playerState, size, colour) {
