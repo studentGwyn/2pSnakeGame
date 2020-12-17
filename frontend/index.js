@@ -45,7 +45,7 @@ function init() {
   ctx = canvas.getContext('2d');
 
   canvas.width = 600;
-   canvas.height = 600; //asdasdasdasdas
+  canvas.height = 600; //asdasdasdasdas
 
   ctx.fillStyle = BG_COLOUR;
   ctx.fillRect(0, 0, canvas.width, canvas.height);
