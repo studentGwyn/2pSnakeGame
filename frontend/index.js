@@ -44,7 +44,7 @@ function init() {
   canvas = document.getElementById('canvas');
   ctx = canvas.getContext('2d');
 
-  canvas.width = 1200;
+  canvas.width = 600;
    canvas.height = 600; //asdasdasdasdas
 
   ctx.fillStyle = BG_COLOUR;
