@@ -1,4 +1,4 @@
-const BG_COLOUR = '#003300';
+const BG_COLOUR = '#231f20';
 const SNAKE_COLOUR = '#c3141c';
 const FOOD_COLOUR = '#044483';
 
