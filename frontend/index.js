@@ -1,4 +1,4 @@
-const BG_COLOUR = 'linear-gradient(to bottom, #006600 0%, #339933 100%)';
+const BG_COLOUR = '#003300';
 const SNAKE_COLOUR = '#c3141c';
 const FOOD_COLOUR = '#044483';
 
