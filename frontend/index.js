@@ -1,10 +1,6 @@
 const BG_COLOUR = '#231f20';
 const SNAKE_COLOUR = '#c3141c';
 const FOOD_COLOUR = '#044483';
-// Create gradient
-var grd = ctx.createLinearGradient(0,0,200,0);
-grd.addColorStop(0,"red");
-grd.addColorStop(1,"white");
 
 const socket = io('https://sleepy-island-33889.herokuapp.com/');
 
