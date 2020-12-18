@@ -53,7 +53,37 @@
             <p>note: Once you join with the given code be prepared to play instantly as Player 2 = Light Blue. </p>
         </div>
       </div>
+      
+      
+<! -- <style>
+      #count{
+       display:none;
+        }
+       </style>
+      
+      countdowns   font-size: 15em;
+      <div>
+        <div style="text-align:left font-size-15em color-red">
+        <h2 id="count" >10 </h2>
+        </div>
+        <script type="text/javascript"> 
+          var counter = 10;
 
+          setInterval(function(){
+            counter--;
+
+            if( counter >= 0){
+              id = document.getElementById("count");
+              id.innerHTML = counter;
+            }
+            if(counter === 0){
+              id,innerHTML = "START"
+            }
+          }, 1000);
+        </script>
+      </div> -->
+      
+      
       <div id="gameScreen" class="h-100">
         <div class="d-flex flex-column align-items-center justify-content-center h-100">
 
