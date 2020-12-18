@@ -63,11 +63,11 @@ function paintGame(state) {
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
   const food = state.food;
-  const gridsize = state.gridsize;
+  const gridsize = 40; //state.gridsize; ang original dre!!!!!!!!!!!!!!!!!!!!!!!!
   const size = canvas.width / gridsize;
 
   ctx.fillStyle = FOOD_COLOUR;
-  ctx.fillRect(food.x * size, food.y * size, 15, 15); //KOKODAYOOOOOOOOOOOOOOOOOOOOOOOOOO
+  ctx.fillRect(food.x * size, food.y * size, 15, 15); //KOKODAYOOOOOOOOOOOOOOOOOOOOOOOOOO size * size ang original
 
   paintPlayer(state.players[0], size, SNAKE_COLOUR);
   paintPlayer(state.players[1], size, '#abc4da');
@@ -79,7 +79,7 @@ function paintPlayer(playerState, size, colour) {
 
   ctx.fillStyle = colour;
   for (let cell of snake) {
-    ctx.fillRect(cell.x * size, cell.y * size, 15, 15);
+    ctx.fillRect(cell.x * size, cell.y * size, 15, 15); //KOKODAYOOOOOOOOOOOOOOOOOOOOOOOOOO size * size ang original
   }
 }
 
