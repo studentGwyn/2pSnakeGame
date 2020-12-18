@@ -63,7 +63,7 @@ function paintGame(state) {
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
   const food = state.food;
-  const gridsize = 40; //state.gridsize; ang original dre!!!!!!!!!!!!!!!!!!!!!!!!
+  const gridsize = 80; //state.gridsize; ang original dre!!!!!!!!!!!!!!!!!!!!!!!!
   const size = canvas.width / gridsize;
 
   ctx.fillStyle = FOOD_COLOUR;
