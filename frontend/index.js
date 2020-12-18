@@ -67,7 +67,7 @@ function paintGame(state) {
   const size = canvas.width / gridsize;
 
   ctx.fillStyle = FOOD_COLOUR;
-  ctx.fillRect(food.x * size, food.y * size, size, size);
+  ctx.fillRect(food.x * size, food.y * size, 10, 10); //KOKODAYOOOOOOOOOOOOOOOOOOOOOOOOOO
 
   paintPlayer(state.players[0], size, SNAKE_COLOUR);
   paintPlayer(state.players[1], size, '#abc4da');
